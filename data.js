@@ -1,10 +1,12 @@
 var materials = [
   ["Week 1"],
-  ["02/08/2022", "Introduction Slide", "NLP_intro.pdf"],
-  ["02/08/2022", "What is NLP", "What is NLP.pdf"],
-  ["03/08/2022", "Text-Processing", "Course_material/Day_1/Text_Processing.pdf"],
-  ["03/08/2022", "RegularExpressions", "Course_material/Day_1/Regular_Expressions.pdf"],
-  ["03/08/2022", "Empirical-Laws", "Course_material/Day_1/Empirical_Laws.pdf"] 
+  ["02/08/2022", ["Introduction Slide", "NLP_intro.pdf"],
+                 ["What is NLP", "What is NLP.pdf"]
+  ],
+  ["03/08/2022", ["Text-Processing", "Course_material/Day_1/Text_Processing.pdf"],
+                 ["RegularExpressions", "Course_material/Day_1/Regular_Expressions.pdf"],
+                 ["Empirical-Laws", "Course_material/Day_1/Empirical_Laws.pdf"]
+  ],
 ]
 
 var announcements = [
