@@ -3,27 +3,41 @@ var b = document.getElementById("annun");
 
 for (let i = 0; i < materials.length; i++) {
   let x = materials[i];
-  let tr = document.createElement("tr");
   if (x.length == 1) {
+    let tr = document.createElement("tr");
     let th = document.createElement("th");
     th.innerText = x[0];
     th.setAttribute("colspan", "2");
     th.classList = ["week_title"];
     tr.appendChild(th);
+    a.appendChild(tr);
   }
   else {
+    let tr = document.createElement("tr");
     let th1 = document.createElement("th");
     let th2 = document.createElement("th");
     let link = document.createElement("a");
     th1.innerText = x[0];
-    link.innerText = x[1];
-    link.setAttribute("href", x[2]);
+    th1.setAttribute("rowspan", x.length - 1);
+    link.innerText = x[1][0];
+    link.setAttribute("href", x[1][1]);
     link.setAttribute("download", "");
     tr.appendChild(th1);
     th2.appendChild(link);
     tr.appendChild(th2);
+    a.appendChild(tr);
+    for(let j = 2; j < x.length; j++){
+      let trs = document.createElement("tr");
+      let ths = document.createElement("th");
+      let links = document.createElement("a");
+      links.innerText = x[j][0];
+      links.setAttribute("href", x[j][1]);
+      links.setAttribute("download", "");
+      ths.appendChild(links);
+      trs.appendChild(ths);
+      a.appendChild(trs);
+    }
   }
-  a.appendChild(tr);
 }
 
 for (let i = announcements.length - 1; i >= 0; i--) {
