@@ -123,19 +123,20 @@ i{
 
 #course_data  li{
   font-size: 1.2em;
-  }
+}
 
 #reference_container li, #reference_container a{
   font-size: 1.2em;
 }
 
-#reference_title{
-  margin-bottom: 25px;
-}
-
 #reference_container {
   padding: 0 25px 25px 25px;
 }
+
+#reference_data{
+  margin-top: 25px;
+}
+
 #timing{
   padding: 12px 18px;
   width: 13vw;
@@ -212,9 +213,28 @@ hr{
     margin-bottom: 30px;
   }
 
+  #reference_container {
+    padding: 0 0 0 15px;
+  }
+
+  #course_data, #reference_data {
+    margin: 15px 10px 15px 10px;
+  }
+
+  #reference_data{
+    margin-top: 0;
+  }
+
+  #course_data li, #reference_data li, #reference_data a{
+    font-size: 1em;
+  }
+  #course_data ol, #reference_data ul{
+    padding: 10px 0 0 25px;
+  }
   #timing{
     padding: 0;
     width: 50vw;
+    min-width: 210px;
     padding-bottom: 5px;
   }
   #timing > p{
