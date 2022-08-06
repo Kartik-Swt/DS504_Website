@@ -21,7 +21,7 @@ for (let i = 0; i < materials.length; i++) {
     th1.setAttribute("rowspan", x.length - 1);
     link.innerText = x[1][0];
     link.setAttribute("href", x[1][1]);
-    link.setAttribute("download", "");
+    link.setAttribute("target", "_blank");
     tr.appendChild(th1);
     th2.appendChild(link);
     tr.appendChild(th2);
@@ -32,7 +32,7 @@ for (let i = 0; i < materials.length; i++) {
       let links = document.createElement("a");
       links.innerText = x[j][0];
       links.setAttribute("href", x[j][1]);
-      links.setAttribute("download", "");
+      links.setAttribute("target", "_blank");
       ths.appendChild(links);
       trs.appendChild(ths);
       a.appendChild(trs);
