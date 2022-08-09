@@ -7,6 +7,10 @@ var materials = [
                  ["RegularExpressions", "Course_material/Day_1/Regular_Expressions.pdf"],
                  ["Empirical-Laws", "Course_material/Day_1/Empirical_Laws.pdf"]
   ],
+  ["Week 2"],
+  ["09/08/2022",["Spelling Correction: Edit Distance", "Course_material/Week_2/W2L1.pdf"],
+                ["Weighted edit distance, other variations","Course_material/Week_2/W2L2.pdf"]
+  ]
 ]
 
 var announcements = [
