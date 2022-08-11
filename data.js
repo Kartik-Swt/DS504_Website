@@ -11,7 +11,8 @@ var materials = [
   ["09/08/2022",["Spelling Correction: Edit Distance", "Course_material/Week_2/W2L1.pdf"],
                 ["Weighted edit distance, other variations","Course_material/Week_2/W2L2.pdf"]
   ],
-  ["11/08/2022"], ["Noisy Channel Model for Spelling Correction", "Course_material/Week_2/W2L3.pdf"]
+  ["11/08/2022", ["Noisy Channel Model for Spelling Correction", "Course_material/Week_2/W2L3.pdf"]
+   ]
 ]
 
 var announcements = [
