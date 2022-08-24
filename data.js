@@ -17,6 +17,10 @@ var materials = [
   ["16/08/2022",["Tutorial-1", "Course_material/Week_3/NLP_Class_Tutorial_1.ipynb"]
   ],
   ["24/08/2022",["Quiz-1 Solutions", "Course_material/Week_3/Quiz 1 Solutions.pdf"]
+  ],
+  ["Week 4"],
+  ["23/08/2022",["N-gram Language models", "Course_material/Week_4/W2L4.pdf"],
+                ["Language model evalulation","Course_material/Week_4/W2L5.pdf"]
   ]
 ]
 
