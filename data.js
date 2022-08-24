@@ -15,6 +15,8 @@ var materials = [
    ],
   ["Week 3"],
   ["16/08/2022",["Tutorial-1", "Course_material/Week_3/NLP_Class_Tutorial_1.ipynb"]
+  ],
+  ["24/08/2022",["Quiz-1 Solutions", "Course_material/Week_3/Quiz 1 Solutions.pdf"]
   ]
 ]
 
