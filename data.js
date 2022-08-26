@@ -13,6 +13,8 @@ var materials = [
   ],
   ["11/08/2022", ["Noisy Channel Model for Spelling Correction", "Course_material/Week_2/W2L3.pdf"]
    ],
+  ["Additional reference", ["Flowchart for spelling correction", "Course_material/Week_2/FlowChart.pdf"]
+   ],
   ["Week 3"],
   ["16/08/2022",["Tutorial-1", "Course_material/Week_3/NLP_Class_Tutorial_1.ipynb"]
   ],
