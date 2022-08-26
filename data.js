@@ -21,6 +21,9 @@ var materials = [
   ["Week 4"],
   ["23/08/2022",["N-gram Language models", "Course_material/Week_4/W2L4.pdf"],
                 ["Language model evalulation","Course_material/Week_4/W2L5.pdf"]
+  ],
+  ["25/08/2022",["Language Modelling: Advanced Smoothing Models", "Course_material/Week_4/W3L1.pdf"],
+                ["Computational Morphology","Course_material/Week_4/W3L2.pdf"]
   ]
 ]
 
