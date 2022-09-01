@@ -34,5 +34,5 @@ var materials = [
 ]
 
 var announcements = [
-  ["Sunday there will be an extra class along with the tutorial at 3pm in B107"],
+  ["Regarding Extra Class", "Sunday(04/09/2022) there will be an extra class along with the tutorial at 3pm in B107"],
 ]
