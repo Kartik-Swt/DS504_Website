@@ -26,6 +26,10 @@ var materials = [
   ],
   ["25/08/2022",["Language Modelling: Advanced Smoothing Models", "Course_material/Week_4/W3L1.pdf"],
                 ["Computational Morphology","Course_material/Week_4/W3L2.pdf"]
+  ],
+  ["Week 5"],
+  ["01/09/2022",["Finite-state methods for morphology", "Course_material/Week_5/W3L3.pdf"],
+                ["Introduction to POS Tagging","Course_material/Week_5/W3L4.pdf"]
   ]
 ]
 
