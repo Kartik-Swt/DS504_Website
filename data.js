@@ -30,6 +30,10 @@ var materials = [
   ["Week 5"],
   ["01/09/2022",["Finite-state methods for morphology", "Course_material/Week_5/W3L3.pdf"],
                 ["Introduction to POS Tagging","Course_material/Week_5/W3L4.pdf"]
+  ],
+  ["04/09/2022",["Hidden Markov Models for POS Tagging", "Course_material/Week_5/W3L5.pdf"],
+                ["Viterbi Decoding for HMM, Parameter Learning","Course_material/Week_5/W4L1.pdf"],
+                ["Baum Welch Algorithm","Course_material/Week_5/W4L2.pdf"]
   ]
 ]
 
