@@ -41,6 +41,7 @@ var materials = [
   ],
   ["Additional references", ["Efficient Estimation of Word Representations in Vector Space", "Course_material/Week_6/word_representation.pdf"],
                             ["Word2Vec research paper", "Course_material/Week_6/word_vec.pdf"]
+  ]
 ]
 
 var announcements = [
