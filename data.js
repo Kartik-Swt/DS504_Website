@@ -34,7 +34,13 @@ var materials = [
   ["04/09/2022",["Hidden Markov Models for POS Tagging", "Course_material/Week_5/W3L5.pdf"],
                 ["Viterbi Decoding for HMM, Parameter Learning","Course_material/Week_5/W4L1.pdf"],
                 ["Baum Welch Algorithm","Course_material/Week_5/W4L2.pdf"]
-  ]
+  ],
+  ["Week 6"],
+  ["13/09/2022",["Word Embeddings", "Course_material/Week_6/Word_Embeddings.pptx"],
+                ["Word2Vec","Course_material/Week_6/Word2Vec.pdf"]
+  ],
+  ["Additional references", ["Efficient Estimation of Word Representations in Vector Space", "Course_material/Week_6/word_representation.pdf"],
+                            ["Word2Vec research paper", "Course_material/Week_6/word_vec.pdf"]
 ]
 
 var announcements = [
