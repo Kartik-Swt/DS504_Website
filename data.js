@@ -39,6 +39,8 @@ var materials = [
   ["13/09/2022",["Word Embeddings", "Course_material/Week_6/Word_Embeddings.pptx"],
                 ["Word2Vec","Course_material/Week_6/Word2Vec.pdf"]
   ],
+  ["15/09/2022",["Glove Embeddings", "Course_material/Week_6/wordvecs_lec2.pdf"]
+  ],
   ["Additional references", ["Efficient Estimation of Word Representations in Vector Space", "Course_material/Week_6/word_representation.pdf"],
                             ["Word2Vec research paper", "Course_material/Week_6/word_vec.pdf"]
   ]
