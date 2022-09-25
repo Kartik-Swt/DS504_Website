@@ -44,6 +44,13 @@ var materials = [
   ["Additional references", ["Efficient Estimation of Word Representations in Vector Space", "Course_material/Week_6/word_representation.pdf"],
                             ["Word2Vec research paper", "Course_material/Week_6/word_vec.pdf"]
   ]
+  ["Week 7"],
+  ["20/09/2022",["Syntax : Introduction", "Course_material/Week_7/20-09-2022/W5L1.pdf"],
+                ["Syntax : Parsing-1", "Course_material/Week_7/20-09-2022/W5L2.pdf"]
+  ],
+  ["22/09/2022",["Syntax :CKY, PCFGs", "Course_material/Week_7/22-09-2022/W5L3.pdf"],
+                ["Dependancy Parsing", "Course_material/Week_7/22-09-2022/cs224n-2022-lecture04-dep-parsing.pdf"]
+  ]
 ]
 
 var announcements = [
