@@ -50,6 +50,12 @@ var materials = [
   ],
   ["22/09/2022",["Syntax :CKY, PCFGs", "Course_material/Week_7/22-09-2022/W5L3.pdf"],
                 ["Dependancy Parsing", "Course_material/Week_7/22-09-2022/cs224n-2022-lecture04-dep-parsing.pdf"]
+  ],
+  ["Week 8"],
+  ["27/09/2022",["Dependency Grammars and Parsing-Introduction", "Course_material/Week_8/27-09-2022/W6L1.pdf"],
+                ["Transition Based Parsing: Formulation", "Course_material/Week_8/27-09-2022/W6L2.pdf"],
+                ["Transition Based Parsing: Learning", "Course_material/Week_8/27-09-2022/W6L3.pdf"]
+   
   ]
 ]
 
