@@ -1,29 +1,30 @@
-*{
+* {
   margin: 0;
   font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
 }
 
 
-#title{
+#title {
   margin: 20px 0 15px 0;
   text-align: center;
   font-weight: bold;
-  font-size:1.8em;
+  font-size: 1.8em;
 }
 
-#iit_logo{
+#iit_logo {
   width: 10%;
   margin-bottom: 10px;
   max-width: 90px;
   min-width: 50px;
 }
 
-#subtitle{
+#subtitle {
   text-align: center;
-  font-size:1.4em;
+  font-size: 1.4em;
 }
 
-#container{
+#container {
   margin-top: 20px;
   width: 100%;
   display: flex;
@@ -32,71 +33,132 @@
   flex-wrap: wrap;
 }
 
-#lpanel, #rpanel{
+#lpanel,
+#rpanel {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 25%;
-  padding-bottom: 100px;
 }
 
-#c_material{
+#c_material {
   text-align: center;
   font-size: 1.2em;
   font-weight: bold;
 }
 
-#material_table{
+#material_table {
   margin-top: 15px;
+  padding: 20px;
   border: 1px solid black;
   border-radius: 10px;
-  width: 20vw;
-  box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.63);
+  width: calc(20vw - 40px);
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.63);
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
 
-th{
-  height: 35px;
-  text-align: center;
+/* Remove default bullets */
+ul,
+#my_treeview {
+  list-style-type: none;
+  padding-left: 25px;
+  list-style-position: inside;
 }
 
-.week_title{
-  font-size: 1.2em;
-  font-weight: bold;
+/* Remove margins and padding from the parent ul */
+#my_treeview {
+  margin: -2px 0 0 3px;
+  padding: 0;
 }
 
-#cpanel{
+#my_treeview li {
+  margin: 2px 0 0 0;
+}
+
+/* Style the caret/arrow */
+.caret {
+  font-size: 0.92em;
+  cursor: pointer;
+  user-select: none;
+  /* Prevent text selection */
+}
+
+/* Create the caret/arrow with a unicode, and style it */
+.caret::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f07b";
+  font-size: 1.1em;
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+.caret-down::before {
+  content: "\f07c";
+}
+
+/* Hide the nested list */
+.nested {
+  display: none;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+  display: block;
+}
+
+.file {
+  font-size: 0.85em;
+  width: calc(20vw - 110px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.file::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f15b";
+  margin-right: 8px;
+}
+
+#cpanel {
   width: 50%;
 }
 
-#inst_container, #course_container, #reference_container{
+#inst_container,
+#course_container,
+#reference_container {
   border: 1px solid black;
-  padding: 0 10px;
+  padding: 10px 20px;
   border-radius: 15px;
   margin-bottom: 30px;
-  box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.63);
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.63);
 }
 
-#all_inst{
+#all_inst {
   margin: 20px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-#inst_title, #course_title, #reference_title{
+#inst_title,
+#course_title,
+#reference_title {
   margin-top: 10px;
   font-size: 1.5em;
   font-weight: bold;
 }
 
-i{
+i {
   margin-right: 8px;
   color: #550707;
 }
 
-.inst_elem{
+.inst_elem {
   width: 7.5vw;
   margin: 10px;
   min-width: 80px;
@@ -106,7 +168,7 @@ i{
   flex-direction: column;
 }
 
-.inst_elem img{
+.inst_elem img {
   margin: 0 1vw;
   margin-bottom: 8px;
   width: 7.5vw;
@@ -114,103 +176,116 @@ i{
   border-radius: 50%;
 }
 
-.inst_elem p{
+.inst_elem p {
   text-align: center;
 }
 
 #course_data {
-  margin: 25px;
+  margin: 10px 25px 25px 25px;
 }
 
-#course_data  li{
-  font-size: 1.2em;
+#course_data li {
+  margin-top: 6px;
+  font-size: 1.01em;
 }
 
-#reference_container li, #reference_container a{
-  font-size: 1.2em;
+#reference_data>ul {
+  list-style-type: circle;
+  list-style-position: outside;
 }
 
-#reference_container {
-  padding: 0 25px 25px 25px;
+#reference_container li,
+#reference_container a {
+  margin-top: 8px;
+  font-size: 1.01em;
 }
 
-#reference_data{
-  margin-top: 25px;
+#reference_data {
+  margin: 10px 25px 25px 25px;
 }
 
-#timing{
+#timing {
   padding: 12px 18px;
   width: 13vw;
   min-width: 180px;
   border: 1px solid black;
   border-radius: 10px;
   margin-bottom: 30px;
-  box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.63);
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.63);
 }
 
-#t_title{
+#t_title {
   font-weight: bold;
   font-size: 1.1em;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
+  text-align: center;
 }
 
-.timing_elem{
+.timing_elem {
   font-weight: bold;
   margin-top: 4px;
   font-size: 0.9em;
 }
 
-#annun{
+#annun {
   border: 1px solid black;
   width: 20vw;
   border-radius: 10px;
-  box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.63);
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.63);
 }
 
-#annun > p{
+#annun>p {
   text-align: center;
   font-size: 1.3em;
   font-weight: bold;
   margin: 10px 0;
 }
 
-.ann_elem{
+.ann_elem {
   margin: 10px;
   border: 1px solid black;
   border-radius: 10px;
 }
 
-.ann_elem_title{
+.ann_elem_title {
   margin-top: 5px;
-  margin-left: 15px;
+  margin-left: 8px;
 }
-hr{
+
+hr {
   margin: 5px 5%;
   width: 90%;
 }
-.ann_elem_body{
-  margin-left: 15px;
-  font-size: 1em;
+
+.ann_elem_body {
+  margin: 0 12px 0 25px;
+  font-size: 0.8em;
   margin-bottom: 8px;
 }
 
 
 
-@media only screen and (max-width: 940px) {
-  #container{
+@media only screen and (max-width: 1000px) {
+  #container {
     flex-direction: row;
   }
-  #lpanel, #cpanel, #rpanel{
+
+  #lpanel,
+  #cpanel,
+  #rpanel {
     width: 100vw;
   }
-  #c_material{
+
+  #c_material {
     margin-top: 10px;
   }
-  #cpanel{
+
+  #cpanel {
     padding: 0 10vw;
   }
-  #material_table{
-    width: 80vw;
+
+  #material_table {
+    width: 70vw;
     margin-bottom: 30px;
   }
 
@@ -218,34 +293,45 @@ hr{
     padding: 0 0 0 15px;
   }
 
-  #course_data, #reference_data {
+  #course_data,
+  #reference_data {
     margin: 15px 10px 15px 10px;
   }
 
-  #reference_data{
+  #reference_data {
     margin-top: 0;
   }
 
-  #course_data li, #reference_data li, #reference_data a{
+  #course_data li,
+  #reference_data li,
+  #reference_data a {
     font-size: 1em;
   }
-  #course_data ol, #reference_data ul{
+
+  #course_data ol,
+  #reference_data ul {
     padding: 10px 0 0 25px;
   }
-  #timing{
+
+  #timing {
     padding: 0;
     width: 50vw;
     min-width: 210px;
     padding-bottom: 5px;
   }
-  #timing > p{
+
+  #timing>p {
     text-align: center;
     min-width: 200px;
     margin: 8px;
   }
 
-  #annun{
+  #annun {
     width: 80vw;
     margin-bottom: 30px;
+  }
+
+  .file {
+    width: 100%;
   }
 }
