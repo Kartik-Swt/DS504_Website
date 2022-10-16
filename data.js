@@ -81,7 +81,16 @@ var materials = {
       "Transition Based Parsing Formulation.pdf",
       "Transition Based Parsing Learning.pdf"
     ]
-  }
+  },
+  "Week 9": {
+  "11-10-2022": [
+    "Language Models and RNNs.pdf",
+    "LSTMs and GRUs.pdf"
+  ],
+  "13-10-2022": [
+    "Seq2Seq and Attention.pdf"
+  ]
+}
 }
 
 var announcements = [
