@@ -78,6 +78,10 @@ var materials = {
   "Week 8": {
     "27-09-2022": [
       "Dependency Grammars and Parsing - Introduction.pdf",
+      "MST based Dependancy Parsing II.pdf"
+    ],
+    "4-10-2022": [
+      "MST based Dependancy Parsing I.pdf",
       "Transition Based Parsing Formulation.pdf",
       "Transition Based Parsing Learning.pdf"
     ]
