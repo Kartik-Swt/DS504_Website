@@ -81,7 +81,7 @@ var materials = {
       "Transition Based Parsing Formulation.pdf",
       "Transition Based Parsing Learning.pdf"
     ],
-    "4-10-2022": [
+    "04-10-2022": [
       "MST based Dependancy Parsing I.pdf",
       "MST based Dependancy Parsing II.pdf"      
     ]
