@@ -100,8 +100,8 @@ var materials = {
       "Transformers.pdf"
     ],
     "Supplementary reading": [
-      "https://kazemnejad.com/blog/transformer_architecture_positional_encoding/",
-      ""
+      "Attention is all you need.pdf",
+      "Amirhossein Kazemnejad's Blog.pdf"
     ]
   }
   
