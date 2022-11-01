@@ -94,7 +94,17 @@ var materials = {
   "13-10-2022": [
     "Seq2Seq and Attention.pdf"
   ]
-}
+},
+ "Week 10": {
+    "01-11-2022": [
+      "Transformers.pdf"
+    ],
+    "Supplementary reading": [
+      "https://kazemnejad.com/blog/transformer_architecture_positional_encoding/",
+      ""
+    ]
+  }
+  
 }
 
 var announcements = [
