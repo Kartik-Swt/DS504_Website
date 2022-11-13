@@ -106,6 +106,15 @@ var materials = {
     "03-11-2022": [
       "Question Answering.pdf"
     ]
+  },
+ "Week 11": {
+    "10-11-2022": [
+      "PreTraining.pdf"
+    ],
+    "Tutorial": [
+      "BERT_for_contradiction.ipynb",
+      "Seq2Seq_translation.ipynb"
+    ]
   }
   
 }
