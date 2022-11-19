@@ -115,6 +115,14 @@ var materials = {
       "BERT_for_contradiction.ipynb",
       "Seq2Seq_translation.ipynb"
     ]
+  },
+  "Week 12": {
+    "15-11-2022": [
+      "Question Answering.pdf"
+    ],
+    "17-11-2022": [
+      "Coreference Resolution.pdf"
+    ]
   }
   
 }
