@@ -123,6 +123,13 @@ var materials = {
     "17-11-2022": [
       "Coreference Resolution.pdf"
     ]
+  },
+  "Week 13": {
+    "22-11-2022": [
+      "Entity Linking I.pdf",
+      "Entity Linking II.pdf",
+      "Information Extraction.pdf"
+    ]
   }
   
 }
