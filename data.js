@@ -135,6 +135,12 @@ var materials = {
       "Distant Supervision.pdf",
       "Text Summarization- LexRank.pdf"
     ]
+  },
+  "Week 14": {
+    "29-11-2022": [
+      "Optimization Based Approaches for Summarization.pdf",
+      "Summarization- Evaluation.pdf"
+    ]
   }
   
 }
