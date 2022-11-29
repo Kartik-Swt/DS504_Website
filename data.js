@@ -129,6 +129,11 @@ var materials = {
       "Entity Linking I.pdf",
       "Entity Linking II.pdf",
       "Information Extraction.pdf"
+    ],
+    "24-11-2022": [
+      "Relation Extraction.pdf",
+      "Distant Supervision.pdf",
+      "Text Summarization- LexRank.pdf"
     ]
   }
   
